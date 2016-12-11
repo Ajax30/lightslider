@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lightwaight jQuery Slider Plugin</title>
+	<meta name="description" content="A lightweight jquery plugin for making responsive sliders.">
+	<meta name="keywords" content="HTML, CSS, JavaScript, jQuery, plugin, slider">
+	<meta name="author" content="Razvan Zamfir">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="docs.css" type="text/css" />
+</head>
+<body>
+	<div id="plugin">
+		<h1>LightSlider Plugin</h1>
+		<div id="content">	
+			<h2>Table of contents</h2>
+			<ol>
+				<li><a href="#about">About the LightSlider plugin</a></li>
+				<li><a href="#usage">How to use the plugin</a></li>
+				<li><a href="#options">Options</a></li>
+				<li><a href="#demos">Demo</a></li>
+				<li><a href="#download">Download</a></li>
+				<li><a href="#contact">Contact me</a></li>
+			</ol>
+
+			<div class="section first" id="about">
+				<h3>1. About the LightSlider plugin <a href="#">&#8593;</a></h3>
+				<p>LightSlider is a lightwaight jQuery plugin that lets you easely create responsive sliders.</p>
+
+				<h4>The MIT License (MIT)</h4>
+
+				<p>Copyright (c) 2016 Razvan Zamfir</p>
+
+				<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+
+				<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+
+				<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+
+			</div>
+
+			<div class="section" id="usage">
+				<h3>2. How to use the plugin <a href="#">&#8593;</a></h3>
+
+				<p>Basic usage:</p>
+
+				<p>1. Include the latest (or simply, your favorite) version of the jQuery library right after the closing </head> tag in your html document:</p>
+
+				<code>
+					&lt;script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"&gt;&lt;/script&gt;<script type="text/javascript" src="js/jquery.lightslider.min.js"></script>
+				</code>
+
+				<p>2. Bellow that line, add the <strong>jquery.lightslider.min.js</strong> file:</p>
+
+				<code>
+					&lt;script type="text/javascript" src="js/jquery.lightslider.min.js"&gt;&lt;/script&gt;
+				</code>
+
+				3. Include the plugin's stylesheet:
+
+				<code>
+					&lt;link rel="stylesheet" type="text/css" href="css/lightslider.css"&gt;
+				</code>
+
+				<p>4. Make un unordered list of linked images and, if you want, captions.</p>
+
+				<p>5. Attach the plugin to the container of both the navigation and the content.</p>	
+
+				<code>
+					&lt;script type="text/javascript"&gt;
+				</code>
+				<code>
+					&nbsp;$(function() {
+				</code>
+				<code>
+					&nbsp;&nbsp;&nbsp;$('ul.slider').lightSlider();
+				</code>
+				<code>
+					&nbsp;});
+				</code>
+				<code>
+					&lt;/script"&gt;
+				</code>
+
+			</div>
+
+			<div class="section" id="options">
+				<h3>3. Options <a href="#">&#8593;</a></h3>
+				<table>
+					<thead>
+						<tr>
+							<th width="20%">Option</th>
+							<th width="20%">Type</th>
+							<th width="20%">Value</th>
+							<th width="40%">Role</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>auto</td>
+							<td>boolean</td>
+							<td>The default value is "true".</td>
+							<td>If set to "true", the slides autoadvance</td>
+						</tr>
+						<tr>
+							<td>arrowsNavigation</td>
+							<td>boolean</td>
+							<td>The default value is "true".</td>
+							<td>If set to "true", the Next and Previous buttons are visible</td>
+						</tr>
+						<tr>
+							<td>bullets</td>
+							<td>boolean</td>
+							<td>The default value is "true".</td>
+							<td>If set to "true", the Next bullets are visible</td>
+						</tr>
+						<tr>
+							<td>loop</td>
+							<td>boolean</td>
+							<td>The default value is "true".</td>
+							<td>If set to "true", the slides loop</td>
+						</tr>
+						<tr>
+							<td>slideDuration</td>
+							<td>integer</td>
+							<td>The default value is 500</td>
+							<td>The duration, in miliseconds, of the transition between two slides</td>
+						</tr>
+						<tr>
+							<td>pause</td>
+							<td>integer</td>
+							<td>The default value is 4000</td>
+							<td>The pause, in miliseconds, between two slide transitions</td>
+						</tr>
+					</tbody>
+				</table>	
+			</div>
+
+			<div class="section" id="demos">
+				<h3>4. Demo</h3>
+				<p>See a demo <a href="../index.html" target="_blank">HERE</a>.</p>
+			</div>
+
+
+			<div class="section" id="download">
+				<h3>5. Download <a href="#">&#8593;</a></h3>
+
+				<p>Click the button bellow to download the plugin files. Enjoy!</p>
+				<p><a href="#" class="button download">Download</a></p>
+				
+			</div>
+
+
+			<div class="section" id="contact">
+				<h3>6. Contact me <a href="#">&#8593;</a></h3>
+				<p>Please help me make the plugin better. Write to me at <a href="mailto:razvan.zamfir80@gmail.com">razvan.zamfir80@gmail.com</a> about any bugs you may find or any improvement ideas you might have.</p>
+				<p>Thank you!</p>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>

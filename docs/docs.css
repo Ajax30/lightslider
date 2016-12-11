@@ -1,0 +1,216 @@
+@import"reset.css";
+
+#plugin {
+	font-size: 14px;
+	font-family: 'Droid Sans', Tahoma, Verdana, Arial;
+	padding-bottom: 40px;
+}
+
+#plugin figure img {
+	margin-bottom: -8px;
+}
+
+#plugin figcaption {
+	padding-left: 10px;
+}
+
+#plugin figcaption span {
+	background: #333;
+	color: #fff;
+	padding: 6px 7px 5px 7px;
+	display: inline-block;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .33);
+	font-size: 12px;
+}
+
+#plugin {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#plugin #sidebar {
+	width: 242px;
+	float: right;
+  display: block;
+}
+
+#plugin #content {
+	padding: 0 10px;
+	float: left;
+}
+
+#plugin .section {
+	margin-bottom: 20px;
+}
+
+#plugin .section.first {
+	margin-top: 20px;
+}
+
+#plugin h2,
+#plugin h3,
+#plugin a {
+	color: #069;
+}
+
+#plugin h1 {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 400;
+	padding: 10px 0;
+	border-bottom: 1px solid #999;
+	margin-bottom: 20px;
+}
+
+#plugin h2 {
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+#plugin h3 {
+	font-size: 16px;
+	padding-top: 10px;
+	font-weight: 700;
+	position: relative;
+}
+
+#plugin h3 a {
+	display: inline-block;
+	background: #069;
+	color: #fff;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 10px;
+	bottom: 0;
+	text-align: center;
+	-moz-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+#plugin p {
+	line-height: 1.6;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+#plugin ol, 
+#plugin ul {
+	margin: 0 0 0 5px;
+	padding: 0;
+	list-style-position: inside;
+}
+
+#plugin ul {
+	list-style-type: square;
+}
+
+#plugin ol li,
+#plugin ul li {
+	margin: 5px 0;
+}
+
+#plugin ol li,
+#plugin ol li a {
+	color: #069;
+}
+
+#plugin .list a {
+	font-weight: 700;
+}
+
+#plugin code {
+	display: block;
+	margin-top: 8px;
+	margin-bottom: 16px;
+}
+
+#plugin table {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 1px;
+	background: #fff;
+	margin-top: 15px; 
+}
+
+#plugin thead {
+	background: #111 !important;
+	color: #fff !important;
+}
+
+#plugin tbody {
+	color: #101010;
+}
+
+#plugin tbody tr {
+	background: #ddd;
+}
+
+#plugin th,
+#plugin td {
+	padding: 5px 10px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+#plugin th {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+#plugin td {
+	line-height: 1.5;
+}
+
+#plugin tbody tr td:first-child{
+	font-weight: 700;
+}
+
+.centered_text {
+	text-align: center;
+}
+
+#plugin .button {
+	display: block;
+	text-indent: -9999px;
+	text-decoration: none;
+}
+
+#plugin .download {
+	width: 140px;
+	height: 40px;
+	background: transparent url(images/download.png) no-repeat center center;  
+}
+
+#plugin .fat_text {
+	font-weight: 700;
+}
+
+#plugin form {
+	margin-top: 20px;
+}
+
+#plugin input {
+	outline: none;
+}
+
+#plugin .footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 40px;
+  background: #DADADA;
+  border-top: 1px solid #C3C3C3;
+  -moz-box-shadow: 1px -1px 2px 0 rgba(0,0,0,.15);
+  -webkit-box-shadow: 1px -1px 2px 0 rgba(0,0,0,.15);
+  box-shadow: 1px -1px 2px 0 rgba(0,0,0,.15);
+}
+
+#plugin .footer p {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+}
